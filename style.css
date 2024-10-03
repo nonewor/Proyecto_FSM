@@ -221,7 +221,15 @@ body{
 }
 
 .general-2 {
-  background-image: url(imagenes/imagen\ 18.jpg);
+  background-image: url(imagenes/anturio\ negro.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+
+.general-3 {
+  background-image: url(imagenes/Captura\ de\ pantalla\ \(5\).png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -239,10 +247,10 @@ h1 {
 p {
   font-size: 16px;
   color: #414247;
-  margin: 25px o 45px o;
+  margin: 25px 0 45px 0;
 }
 
-@media(max-width:991px) {
+@media(max-width:900px) {
   
   .menu {
     padding: 30px;
